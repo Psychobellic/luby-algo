@@ -16,15 +16,8 @@ const Five = () => {
 
   return (
 		<>
-			<br />
-			<strong>Retorno da tarefa 5: </strong>
-			<span>{result}</span>
-			<br />
-			<br />
-			<strong>
-				Para ver a Array estruturada, verifique nos logs do console.
-			</strong>
-			<br />
+			<h2>Retorno da tarefa 5: </h2>
+			<p>{result}</p>
 		</>
 	);
 }

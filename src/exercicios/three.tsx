@@ -12,15 +12,8 @@ const Three = () => {
 
 	return (
 		<>
-			<br />
-			<strong>Retorno da tarefa 3: </strong>
-			<span>{filtered}</span>
-			<br />
-			<br />
-			<strong>
-				Para ver a Array estruturada, verifique nos logs do console.
-			</strong>
-			<br />
+			<h2>Retorno da tarefa 3: </h2>
+			<p>{filtered}</p>
 		</>
 	);
 };

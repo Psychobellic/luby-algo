@@ -10,15 +10,8 @@ const Four = () => {
   console.log(result)
 	return (
 		<>
-			<br />
-			<strong>Retorno da tarefa 4: </strong>
-			<span>{JSON.stringify(result)}</span>
-			<br />
-			<br />
-			<strong>
-				Para ver a Array estruturada, verifique nos logs do console.
-			</strong>
-			<br />
+			<h2>Retorno da tarefa 4: </h2>
+			<p>{JSON.stringify(result)}</p>
 		</>
 	);
 };

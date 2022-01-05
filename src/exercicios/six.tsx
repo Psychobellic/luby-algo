@@ -6,15 +6,8 @@ const Six = () => {
   
 	return (
 		<>
-			<br />
-			<strong>Retorno da tarefa 6: </strong>
-			<span>{result}</span>
-			<br />
-			<br />
-			<strong>
-				Para ver a Array estruturada, verifique nos logs do console.
-			</strong>
-			<br />
+			<h2>Retorno da tarefa 6: </h2>
+			<p>{result}</p>
 		</>
 	);
 };

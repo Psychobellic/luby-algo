@@ -14,15 +14,8 @@ const Two = () => {
 
 	return (
 		<>
-			<br />
-			<strong>Retorno da tarefa 2: </strong>
-			<span>{result}</span>
-			<br />
-			<br />
-			<strong>
-				Para ver a Array estruturada, verifique nos logs do console.
-			</strong>
-			<br />
+			<h2>Retorno da tarefa 2: </h2>
+			<p>{result}</p>
 		</>
 	);
 };

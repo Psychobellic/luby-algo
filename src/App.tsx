@@ -12,6 +12,10 @@ import Ten from './exercicios/ten';
 function App() {
   return (
 		<>
+			<h1> Obrigado pela oportunidade de participar no processo =) </h1>
+			<strong>
+				Para ver a Array estruturada, verifique nos logs do console.
+			</strong>
 			<hr />
 			<One />
 			<br />

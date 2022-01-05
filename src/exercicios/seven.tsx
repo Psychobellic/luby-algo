@@ -13,15 +13,8 @@ const Seven = () => {
 
 	return (
 		<>
-			<br />
-			<strong>Retorno da tarefa 7: </strong>
-			<span>{renderResult}</span>
-			<br />
-			<br />
-			<strong>
-				Para ver a Array estruturada, verifique nos logs do console.
-			</strong>
-			<br />
+			<h2>Retorno da tarefa 7: </h2>
+			<p>{renderResult}</p>
 		</>
 	);
 };

@@ -2,7 +2,6 @@
 
 *Implemente os métodos abaixo:*
 
-
 *1)* Implemente um método que crie um novo array baseado nos valores passados.<br>
 Entradas do método (3,a), Resultado do método: ['a', 'a', 'a']
 
@@ -32,6 +31,5 @@ Entrada do método ([1, 2, 3, 4, 5], 2), Resultado do método: [[1, 2], [3, 4], 
 
 *10)* Implemente um método que encontre os valores comuns entre dois arrays.<br>
 Entrada do método ([6, 8], [8, 9]), Resultado do método: [8]
-
 
 ps: Esses exercícios são de senso comum da comunidade desenvolvimento, utilize o melhor padrão para implementação, criando uma semântica factível.

@@ -7,6 +7,7 @@ import Six from './exercicios/six';
 import Seven from './exercicios/seven';
 import Eight from './exercicios/eight';
 import Nine from './exercicios/nine';
+import Ten from './exercicios/ten';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
 			<br />
 			<hr />
 			<Nine />
+			<br />
+			<hr />
+			<Ten />
 		</>
 	);
 }

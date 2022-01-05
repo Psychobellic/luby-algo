@@ -1,5 +1,4 @@
-# Entrevista Luby: 
-
+# Entrevista Luby:
 
 *Implemente os métodos abaixo:*
 

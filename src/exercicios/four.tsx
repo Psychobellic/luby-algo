@@ -6,6 +6,7 @@ const Four = () => {
 	];
 
   let result = Object.fromEntries(input);
+	console.log('Exercicio 4:');
   console.log(result)
 	return (
 		<>

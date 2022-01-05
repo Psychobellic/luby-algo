@@ -1,18 +1,18 @@
 import One from './exercicios/one';
+import Two from './exercicios/two';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
-   
-        <One />
-  
-    </div>
-  );
+		<>
+			<hr />
+			<One />
+			<br />
+			<hr />
+			<Two />
+			<br />
+			<hr />
+		</>
+	);
 }
 
 export default App;

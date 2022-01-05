@@ -6,16 +6,23 @@ const addAmountFromQuantity = (x: Number, y: String) => {
 	return arr;
 };
 
-const One = () =>{
+const One = () => {
+	let result = addAmountFromQuantity(3, 'a');
   console.log("Exercicio 1:");
-  console.log(addAmountFromQuantity(3, 'a'));
+  console.log(result);
   return (
 		<>
-			<h1>Check console for results</h1>
+			<br />
+			<strong>Retorno da tarefa 1: </strong>
+			<span>{result}</span>
+			<br />
+			<br />
+			<strong>
+				Para ver a Array estruturada, verifique nos logs do console.
+			</strong>
+			<br />
 		</>
-    
 	);
-  
 }
 
 export default One;   

@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# Entrevista Luby:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*Implemente os métodos abaixo:*
 
-## Available Scripts
+*1)* Implemente um método que crie um novo array baseado nos valores passados.<br>
+Entradas do método (3,a), Resultado do método: ['a', 'a', 'a']
 
-In the project directory, you can run:
+*2)* Implemente um método que inverta um array, não utilize métodos nativos do array.<br>
+Entrada do método ([1,2,3,4]), Resultado do método: [4,3,2,1]
 
-### `npm start`
+*3)* Implemente um método que limpe os itens desnecessários de um array (false, undefined, strings vazias, zero, null).<br>
+Entrada do método ([1,2,'', undefined]), Resultado do método: [1,2]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+*4)* Implemente um método que a partir de um array de arrays, converta em um objeto com chave e valor.<br>
+Entrada do método ([["c",2],["d",4]]), Resultado do métdodo: {c:2, d:4}
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+*5)* Implemente um método que retorne um array, sem os itens passados por parâmetro depois do array de entrada.
+Entrada do método ([5,4,3,2,5], 5,3), Resultado do método: [4,2]
 
-### `npm test`
+*6)* Implemente um método que retorne um array, sem valores duplicados.<br>
+Entrada do método ([1,2,3,3,2,4,5,4,7,3]), Resultado do método: [1,2,3,4,5,7]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*7)* Implemente um método que compare a igualdade de dois arrays e retorne um valor booleano.<br>
+Entrada do método ([1,2,3,4],[1,2,3,4]), Resultado do método: true
 
-### `npm run build`
+*8)* Implemente um método que remova os aninhamentos de um array de arrays para um array unico.<br>
+Entrada do método ([1, 2, [3], [4, 5]]), Resultado do método: [1, 2, 3, 4, 5] 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*9)* Implemente um método divida um array por uma quantidade passada por parâmetro.<br>
+Entrada do método ([1, 2, 3, 4, 5], 2), Resultado do método: [[1, 2], [3, 4], [5]]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*10)* Implemente um método que encontre os valores comuns entre dois arrays.<br>
+Entrada do método ([6, 8], [8, 9]), Resultado do método: [8]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ps: Esses exercícios são de senso comum da comunidade desenvolvimento, utilize o melhor padrão para implementação, criando uma semântica factível.

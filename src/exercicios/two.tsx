@@ -1,5 +1,4 @@
 function invertArr(arr: Array<Number>) {
-	const originalArr = [1, 2, 3, 4];
 	const invertedArr = [];
 
 	for (let i = 0; i < arr.length; i++) {
@@ -16,7 +15,7 @@ const Two = () => {
 	return (
 		<>
 			<br />
-			<strong>Retorno da tarefa 1: </strong>
+			<strong>Retorno da tarefa 2: </strong>
 			<span>{result}</span>
 			<br />
 			<br />

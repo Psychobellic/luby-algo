@@ -1,6 +1,7 @@
 import One from './exercicios/one';
 import Two from './exercicios/two';
 import Three from './exercicios/three';
+import Four from './exercicios/four';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
 			<br />
 			<hr />
 			<Three />
+			<br />
+			<hr />
+			<Four />
 			<br />
 			<hr />
 		</>

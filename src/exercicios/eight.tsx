@@ -1,7 +1,7 @@
 const Eight = () => {
 	const input = [1, 2, [3], [4, 5]];
 
-  
+  const result = input.flat();
 
 	console.log('Exercicio 8:');
 	console.log(result);
@@ -9,7 +9,7 @@ const Eight = () => {
 	return (
 		<>
 			<br />
-			<strong>Retorno da tarefa 7: </strong>
+			<strong>Retorno da tarefa 8: </strong>
 			<span>{result}</span>
 			<br />
 			<br />
